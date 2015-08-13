@@ -85,6 +85,9 @@ gem 'cache_digests'
 
 gem 'lograge'
 
+gem 'grape'
+gem 'grape-entity'
+
 group :staging, :production do
   gem 'newrelic_rpm', '~> 3.9.1.236'
 end

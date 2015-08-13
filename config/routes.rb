@@ -5,6 +5,7 @@ Kassi::Application.routes.draw do
   end
 
   mount Mercury::Engine => '/'
+  mount API => '/'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
